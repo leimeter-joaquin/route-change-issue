@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    "/**": { static: true },
+    "/": { static: true },
+    "/products": { static: true },
   },
   app: {
     head: {
